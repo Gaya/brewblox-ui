@@ -1,6 +1,6 @@
 export default [
   {
-    path: '/',
+    path: '/ui/',
     component: () => import('@/layouts/default.vue'),
     children: [
       { path: '', component: () => import('@/pages/index.vue') },

@@ -1,6 +1,6 @@
 import { convertToFlatPaths } from './measurementHelpers';
 
-const historyService = 'http://192.168.0.106/history';
+const historyService = '/history';
 
 // ssh pi@192.168.0.106
 // docker run --rm -d --network=host brewblox/area51:replay --measurement=pressure
