@@ -26,5 +26,9 @@ module.exports = {
     config
       .plugins
       .delete('fork-ts-checker');
+
+    config
+      .plugins
+      .delete('uglify');
   },
 };
